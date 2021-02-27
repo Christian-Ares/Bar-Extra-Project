@@ -11,10 +11,10 @@ export const NavBar = () => {
                     <Button variant="outline-info">Acceso Empresa</Button>
                     <Button variant="outline-info">Acceso Candidato</Button>
                 </Nav>
-                {/* <Form inline>
-                    <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-                    <Button variant="outline-info">Search</Button>
-                </Form> */}
+                <Form inline>
+                    <FormControl type="text" placeholder="" className="mr-sm-2" />
+                    <Button variant="outline-info">Buscar</Button>
+                </Form>
         </Navbar>
     </div>
     )

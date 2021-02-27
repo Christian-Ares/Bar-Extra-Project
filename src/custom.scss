@@ -1,5 +1,14 @@
 // Override default variables before the import
-$body-bg: #000;
+$body-bg: rgb(255, 255, 255);
 
 // Import Bootstrap and its default variables
 @import '~bootstrap/scss/bootstrap.scss';
+
+.homeTitle{
+    color: grey;
+}
+
+a:hover, a:active, a:visited, a:link{
+    text-decoration: none;
+    color: rgb(0,0,0);
+}
