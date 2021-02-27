@@ -4,11 +4,27 @@ $body-bg: rgb(255, 255, 255);
 // Import Bootstrap and its default variables
 @import '~bootstrap/scss/bootstrap.scss';
 
+a:hover, a:active, a:visited, a:link{
+    text-decoration: none;
+    color: rgb(0,0,0);
+}
+
+.headTitle{
+    display: flex;
+    justify-content: center;
+    height: 90%vh;
+}
+
 .homeTitle{
     color: grey;
 }
 
-a:hover, a:active, a:visited, a:link{
-    text-decoration: none;
-    color: rgb(0,0,0);
+.footer{
+    display: flex;
+    justify-content: center;
+}
+
+.links{
+    display: flex;
+    justify-content: space-evenly;
 }
