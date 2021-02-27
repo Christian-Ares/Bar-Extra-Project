@@ -11,8 +11,10 @@ a:hover, a:active, a:visited, a:link{
 
 .headTitle{
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    height: 90%vh;
+    align-items: center;
+    padding-bottom: 5px;
 }
 
 .homeTitle{
