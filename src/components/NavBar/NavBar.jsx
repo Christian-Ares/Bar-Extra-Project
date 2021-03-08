@@ -6,9 +6,9 @@ export const NavBar = () => {
 	<Navbar collapseOnSelect expand="md" bg="dark" variant="dark">
 		<Navbar.Toggle aria-controls="responsive-navbar-nav" />
 		<Navbar.Collapse id="responsive-navbar-nav">
-			<Navbar.Brand href="#home">BarExtra</Navbar.Brand>
+			<Navbar.Brand href="/">BarExtra</Navbar.Brand>
 				<Nav className="mr-auto">
-					<Nav.Link href="#home">Home</Nav.Link>
+					<Nav.Link href="/">Home</Nav.Link>
 					<Button variant="outline-info">Acceso Empresa</Button>
 					<Button variant="outline-info">Acceso Candidato</Button>
 				</Nav>
